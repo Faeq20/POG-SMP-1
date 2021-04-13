@@ -1,0 +1,30 @@
+[18:34:06] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[18:34:09] [main/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[18:34:09] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[18:34:09] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[18:34:09] [main/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[18:34:09] [main/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[18:34:09] [main/INFO]: Reloading ResourceManager: Default
+[18:34:14] [Worker-Main-2/INFO]: Loaded 7 recipes
+[18:34:15] [Worker-Main-2/INFO]: Loaded 927 advancements
+[18:34:24] [Server thread/INFO]: Starting minecraft server version 1.16.5
+[18:34:24] [Server thread/WARN]: To start the server with more ram, launch it as "java -Xmx1024M -Xms1024M -jar minecraft_server.jar"
+[18:34:24] [Server thread/INFO]: Loading properties
+[18:34:24] [Server thread/INFO]: Default game type: SURVIVAL
+[18:34:24] [Server thread/INFO]: Generating keypair
+[18:34:24] [Server console handler/ERROR]: Exception handling console input
+java.io.IOException: The handle is invalid
+	at java.io.FileInputStream.readBytes(Native Method) ~[?:1.8.0_281]
+	at java.io.FileInputStream.read(Unknown Source) ~[?:1.8.0_281]
+	at java.io.BufferedInputStream.read1(Unknown Source) ~[?:1.8.0_281]
+	at java.io.BufferedInputStream.read(Unknown Source) ~[?:1.8.0_281]
+	at sun.nio.cs.StreamDecoder.readBytes(Unknown Source) ~[?:1.8.0_281]
+	at sun.nio.cs.StreamDecoder.implRead(Unknown Source) ~[?:1.8.0_281]
+	at sun.nio.cs.StreamDecoder.read(Unknown Source) ~[?:1.8.0_281]
+	at java.io.InputStreamReader.read(Unknown Source) ~[?:1.8.0_281]
+	at java.io.BufferedReader.fill(Unknown Source) ~[?:1.8.0_281]
+	at java.io.BufferedReader.readLine(Unknown Source) ~[?:1.8.0_281]
+	at java.io.BufferedReader.readLine(Unknown Source) ~[?:1.8.0_281]
+	at zg$1.run(SourceFile:95) [server%20(1).jar:?]
+[18:34:28] [Server thread/INFO]: Starting Minecraft server on *:25565
+[18:34:28] [Server thread/INFO]: Using default channel type
